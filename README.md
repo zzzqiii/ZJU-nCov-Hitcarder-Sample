@@ -1,6 +1,15 @@
 # ZJU-nCov-Hitcarder-Sample
 Sample for https://github.com/Long0x0/ZJU-nCov-Hitcarder.
 
+## 自2021年3月25日起，不再要求健康打卡。
+
+停用方法：
+Actions -> All workflows -> ZJU-nCov-Hitcarder-Sample -> ... -> Disable workflow
+
+![](docs/end.PNG)
+
+
+
 浙大nCov肺炎健康打卡定时自动脚本 
 
 forked from [Tishacy/ZJU-nCov-Hitcarder](https://github.com/Tishacy/ZJU-nCov-Hitcarder)
