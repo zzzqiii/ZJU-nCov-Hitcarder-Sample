@@ -85,12 +85,14 @@ update: 2021.05.08
    
    Actions > ZJU-nCov-Hitcarder Action > Enable workflow > Run workflow。
 
-   ![](docs/manual_run.png)
+   Actions > Monthly Action > Enable workflow > Run workflow。
+
+   ![](docs/manual_run_2.png)
 
 
    查看log：
 
-   ![](docs/actions_logs_2.png)
+   ![](docs/actions_logs.png)
 
 7. 停用
 
