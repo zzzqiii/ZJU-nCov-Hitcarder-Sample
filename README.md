@@ -1,5 +1,3 @@
-# 版本更新中，请勿使用
-
 # ZJU-nCov-Hitcarder-Sample
 
 Sample for https://github.com/Long0x0/ZJU-nCov-Hitcarder.
@@ -14,6 +12,7 @@ forked from [Tishacy/ZJU-nCov-Hitcarder](https://github.com/Tishacy/ZJU-nCov-Hit
  - 增加了系统表单更新提醒
  - 打卡信息有变时，请手动打卡一次
 
+update: 2021.05.08
 
 ## Usage
 
