@@ -1,3 +1,5 @@
+# 版本更新中，请勿使用
+
 # ZJU-nCov-Hitcarder-Sample
 
 Sample for https://github.com/Long0x0/ZJU-nCov-Hitcarder.
