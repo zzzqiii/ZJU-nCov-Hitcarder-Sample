@@ -18,13 +18,11 @@ jobs:
             pushplus_token: PUSHPLUS_TOKEN
             serverchan_key: SERVERCHAN_KEY
     steps:
-    - name: 'Working'
-      id: working
-      env:
-        USERNAME: ${{ secrets[matrix.username] }}
-        PASSWORD: ${{ secrets[matrix.password] }}
-        DINGTALK_TOKEN: ${{ secrets[matrix.dingtalk_token] }}
-        PUSHPLUS_TOKEN: ${{ secrets[matrix.pushplus_token] }}
-        SERVERCHAN_KEY: ${{ secrets[matrix.serverchan_key] }}
-      run: |
-        python ./hitcarder.py
+      - name: Working
+        uses: Long0x0/zju-ncov-hitcarder@master
+        with:
+          username: ${{ secrets[matrix.username] }}
+          password: ${{ secrets[matrix.password] }}
+          dingtalk_token: ${{ secrets[matrix.dingtalk_token] }}
+          pushplus_token: ${{ secrets[matrix.pushplus_token] }}
+          serverchan_key: ${{ secrets[matrix.serverchan_key] }}
